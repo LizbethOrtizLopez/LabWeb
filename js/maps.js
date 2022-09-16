@@ -8,4 +8,5 @@ function initMap() {
       position: coord,
       map: map
     });
+    console.log("Connection Succesfully - Google Maps")
 }
