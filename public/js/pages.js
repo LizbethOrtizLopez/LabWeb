@@ -24,7 +24,7 @@ window.addEventListener("load", function (event) {
           </div>
         </div>
         <div class="parallax">
-          <img src="/zombie2.jpg" alt="Unsplashed background img 1" />
+          <img src="/images/zombie2.jpg" alt="Unsplashed background img 1" />
         </div>
       </div>
 
@@ -59,7 +59,7 @@ window.addEventListener("load", function (event) {
           <div class="container"></div>
         </div>
         <div class="parallax">
-          <img src="/mexico2.jpg" alt="Unsplashed background img 2" />
+          <img src="/images/mexico2.jpg" alt="Unsplashed background img 2" />
         </div>
       </div>
 
@@ -96,7 +96,7 @@ window.addEventListener("load", function (event) {
           </div>
         </div>
         <div class="parallax">
-          <img src="/mexico.jpg" alt="Unsplashed background img 3" />
+          <img src="/images/mexico.jpg" alt="Unsplashed background img 3" />
         </div>
       </div>`;
   } else {
