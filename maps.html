@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,12 +27,18 @@
   </head>
   <body>
     <div class="map__layout">
-    <h2 id="title__map">Verifica tu ubicación</h2>
-    <div id="map"></div>
-    <button id="button__map" class="btn-large waves-effect waves-light teal lighten-1" onclick="notifyMe();change();">LLAMAR AMBULANCIA</button>
+      <h2 id="title__map">Verifica tu ubicación</h2>
+      <div id="map"></div>
+      <button
+        id="button__map"
+        class="btn-large waves-effect waves-light teal lighten-1"
+        onclick="notifyMe();change();"
+      >
+        LLAMAR AMBULANCIA
+      </button>
     </div>
   </body>
-
+  <script type="module" src="js/events.js"></script>
   <script src="js/maps.js"></script>
   <script src="js/notification.js"></script>
   <script
