@@ -14,7 +14,7 @@ window.addEventListener("load", function (event) {
             </div>
             <div class="row center">
               <a
-                href="./views/maps.html"
+                href="/pages/maps.html"
                 id="ambulance-button"
                 class="btn-large waves-effect waves-light teal lighten-1"
                 >LLAMAR AMBULANCIA</a
