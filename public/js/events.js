@@ -1,4 +1,4 @@
-import { saveRescue } from "./firebase";
+import { saveRescue } from "./firebase.js";
 
 const button__map = document.getElementById("button__map");
 
