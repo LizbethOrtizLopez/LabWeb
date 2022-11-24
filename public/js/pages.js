@@ -1,6 +1,10 @@
 window.addEventListener("load", function (event) {
-  date = new Date();
-  if (true) {
+  event.preventDefault();
+
+  const date = new Date();
+  hour = date.getHours();
+
+  if ((hour => 8 && hour <= 22)) {
     document.getElementById("content").innerHTML = `
         <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
@@ -101,8 +105,9 @@ window.addEventListener("load", function (event) {
       </div>`;
   } else {
     document.getElementById("content").innerHTML = `
-      <div>
-        hola
-      </div>`;
+    <div class="not__available">
+      <h2 id="title__map">Página abierta solo de 8:00 pm a 10:00 pm</h2>
+    </div>
+      `;
   }
 });
